@@ -4,6 +4,10 @@ def skip_tuples(t):
     Output: tuple
     Returns a new tuple as output, such as every second element of the input 
     tuple is skipped, starting with the first one.
+    
+    Pseudocode
+    return tuple made of every other index starting from 0
+    (idk how to write pseudocode for this lol)
     '''
     # string slicing thingy
     return t[::2]
